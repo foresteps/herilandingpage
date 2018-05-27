@@ -1,0 +1,303 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.h1 {
+	font-weight: bold;
+	letter-spacing: 0.5rem
+}
+
+.navbar-brand {
+	font-size: 2rem;
+}
+
+@font-face {
+  font-family: 'Heri-icon';
+  src:  url('fonts/Heri-icon.eot?50wm8y');
+  src:  url('fonts/Heri-icon.eot?50wm8y#iefix') format('embedded-opentype'),
+    url('fonts/Heri-icon.ttf?50wm8y') format('truetype'),
+    url('fonts/Heri-icon.woff?50wm8y') format('woff'),
+    url('fonts/Heri-icon.svg?50wm8y#Heri-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Heri-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heri_icon1:before {
+  content: "\48";
+}
+.icon-heri_icon2:before {
+  content: "\45";
+}
+.icon-heri_icon3:before {
+  content: "\52";
+}
+.icon-heri_icon4:before {
+  content: "\49";
+}
+
+@font-face {
+  font-family: 'partner';
+  src:  url('fonts/partner.eot?vd6yee');
+  src:  url('fonts/partner.eot?vd6yee#iefix') format('embedded-opentype'),
+    url('fonts/partner.ttf?vd6yee') format('truetype'),
+    url('fonts/partner.woff?vd6yee') format('woff'),
+    url('fonts/partner.svg?vd6yee#partner') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'partner' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ansonia:before {
+  content: "\41";
+}
+.icon-Quantae:before {
+  content: "\51";
+}
+
+.iconlink {
+	font-family: 'Heri-icon';
+	font-weight: normal;
+	font-size: 3rem;
+	margin-right: 5px;
+	color: #A4C739;
+}
+
+.icon-partner {
+	font-family: 'partner';
+	font-weight: normal;
+	font-size: 7rem;
+	color: grey;
+}
+
+
+.my-icons {
+	font-family: 'Heri-icon';
+	font-weight: normal;
+	font-size: 6rem;
+	color: #A4C739;
+	text-align: center;
+}
+
+.nav-item {
+	font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+	color: #4A4A4A;
+}
+
+.jumbotron {
+	margin-top: 88px;
+	background-image: url("images/heri_hero.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#content {
+	padding-top: 7%;
+	padding-left: 53%;
+}
+
+.display-4 {
+	font-weight: bold;
+	color: #4A4A4A;
+	font-size: 1.9rem;
+}
+
+.my-4 {
+	color: rgb(210,211,213);
+}
+
+.about-us {
+	font-size: 1rem;
+}
+
+#about-us {
+	font-weight: normal;
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+	color: #717274;
+}
+
+.my-button-style {
+	border: 10px solid white;
+	color: #D2D3D5;
+	background-color: #f8f9fa;
+	font-weight: 500;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+}
+
+.my-button-style:hover {
+	border: 10px solid #A4C739;
+	color: white;
+	background-color: #A4C739;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+.statement {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #4A4A4A;
+	font-size: 2rem;
+	text-align: center;
+	color: #FFCC29;
+}
+
+.project-nature {
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+#make-bold {
+	font-weight: bold;
+}
+
+.value-prop {
+	background-color: orange;
+}
+
+.strategy {
+	background-color: #C1CF48;
+}
+
+.my-cards {
+	margin-top: 2rem;
+}
+
+.card-body {
+	padding: 2.5rem;
+}
+
+.make-bold {
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+	color: #4A4A4A;
+}
+
+.form-cover {
+	max-width: 80%;
+}
+
+.make-contact {
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+	color: #4A4A4A;
+}
+
+.my-rule {
+	max-width: 60%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0));
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.make-partners {
+	font-weight: 500;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #A4C739;
+}
+
+.my-rule-under {
+	max-width: 60%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0));
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.col-lg-4 {
+	text-align: center;
+}
+
+.footer {
+	height: 100px;
+	background-color: #4A4A4A;
+	font-weight: 500;
+	font-size: 1rem;
+	margin-top: 3rem;
+}
+
+.text-muted {
+	color: grey !important;
+}
+
+.my-signature {
+	font-size: 0.5rem;
+}
+
+#parent {
+   display: table;
+   width: 100%;
+}
+
+#footer-fixed {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.invisible {
+	color: white;
+	margin-bottom: 3rem;
+}
+
+.underline-control {
+	border-bottom: 2px;
+	border-bottom-color: #f8f9fa;
+	border-bottom-style: solid;
+}
+
+.underline-control:hover {
+	border-bottom: 2px;
+	border-bottom-color: #A4C739;
+	border-bottom-style: solid;
+}
