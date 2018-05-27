@@ -301,3 +301,9 @@ body {
 	border-bottom-color: #A4C739;
 	border-bottom-style: solid;
 }
+
+.underline-control:active {
+	border-bottom: 2px;
+	border-bottom-color: yellow;
+	border-bottom-style: solid;
+}
