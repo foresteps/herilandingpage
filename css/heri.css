@@ -189,6 +189,10 @@ body {
 	font-weight: bold;
 }
 
+#invisible-text {
+	color: transparent;
+}
+
 .value-prop {
 	background-color: orange;
 }
